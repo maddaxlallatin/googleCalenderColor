@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "Google Calander Backgrounds",
+    "version": "1.0.0",
+    "description": "Change from the normal dots to a full background color for events in Google Calendar",
+    "author": "Maddax Lallatin",
+    
+    "permissions": [
+        "activeTab",
+        "scripting"
+      ],
+      "content_scripts": [
+    {
+      "matches": ["https://calendar.google.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+      "icons": {
+        "16": "images/icon-16.png",
+        "32": "images/icon-32.png",
+        "48": "images/icon-48.png",
+        "128": "images/icon-128.png"
+      },
+      "action": {
+        "default_icon": {
+          "16": "images/icon-16.png",
+          "32": "images/icon-32.png",
+          "48": "images/icon-48.png",
+          "128": "images/icon-128.png"
+        }
+      }
+    
+}
