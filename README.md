@@ -1,6 +1,6 @@
 A chrome extension that recolors google calendar event backgrounds based on their color when in month view.
 
 ## Before
-![googleCalendarColorBefore](./googleCalendarColorBefore.png)
+![googleCalendarColorBefore](./images/googleCalendarColorBefore.png)
 ## After
-![googleCalendarColorAfter](./googleCalendarColorAfter.png)
+![googleCalendarColorAfter](./images/googleCalendarColorAfter.png)
